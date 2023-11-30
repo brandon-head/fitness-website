@@ -1,0 +1,76 @@
+body, form, input {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 0;
+}
+
+header h2 {
+    margin: 0;
+}
+
+section {
+    text-align: center;
+    margin: 2em auto;
+    max-width: 50%;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+input[type="date"],
+input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+}
+
+input[type="button"] {
+    background-color: deepskyblue;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: skyblue;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.logged-workout {
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #f5f5f5;
+}
+
+.logged-workout p {
+    margin: 0.5em 0;
+}
+
+.workout-list {
+    list-style: none;
+    padding: 0;
+}
+
+.workout-list li {
+    margin: 0.25em 0;
+}

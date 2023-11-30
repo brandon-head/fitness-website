@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-08">
+        <link rel="stylesheet" href="log-workout.css">
+        <script src="log-workout.js" defer></script>
+        <title>Log Workout - Fitness Fusion</title>
+    </head>
+    <body>
+        <header>
+            <h2>Log Workout</h2>
+        </header>
+        <section class="date-len">
+            <label for="date">Date: </label>
+            <input type="date" id="date" name="date">
+            <label for="len">Length(mins): </label>
+            <input type="text" id="len" name="len">
+        </section>
+        <section class="details">
+            <h5>Workout Details</h5>
+            <label for="name">Workout Name: </label>
+            <input type="text" id="name" name="name">
+            <p>Exercises:</p>
+            <div id="exercise-collection">
+                <fieldset class="exercise-set">
+                    <input type="text" class ="exerciseName" value="[Exercise 1]">
+                    <label>Reps:
+                        <input type="text" class="reps" name="reps">
+                    </label>
+                    <label>Sets:
+                        <input type="text" class="sets" name="sets">
+                    </label>
+                    <label>Weight:
+                        <input type="text" class="weight" name="weight">
+                    </label>
+                </fieldset>
+            </div>
+            <input id="addExerciseButton" type="button" value="Add Exercises">
+        </section>
+        <footer>
+            <input type="button" id = "log-workout-button" value="Save Workout">
+            <input type="button" value="Cancel">
+        </footer>
+        <div class="workout-log"></div>
+    </body>
+</html>

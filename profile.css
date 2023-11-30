@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -1.25em 0em;
+}
+header div {
+    background-color: deepskyblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    height: 5em;
+    margin: 0;
+}
+h2 {
+    margin-top: 1.5em;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2em;
+}
+.info,
+.progress,
+.stats {
+    text-align: center;
+    flex: 1;
+    padding: 3em;
+    font-size: 1.7em;
+    color: gray;
+}
+h4 {
+    font-size: 1.25em;   
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30em;
+}
+footer input[type="button"] {
+    background-color: skyblue;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    margin: 0em 2em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 0.5em;
+    border-color: transparent;
+}
+footer input[type="button"]:hover {
+    background-color: deepskyblue;
+}

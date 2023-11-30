@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="social.css">
+    <title>Community Page - Fitness Fusion</title>
+    <script src="social.js" defer></script>
+</head>
+<body>
+    <h2>Community Page</h2>
+    <section class="search">
+        <label for="users">Search for users: </label>
+        <input type="text" id="users" name="users">
+        <label for="challenge">Search for challenges: </label>
+        <input type="text" id="challenge" name="challenge">
+    </section>
+    <div class="container">
+        <section class="challenges">
+            <h5>Challenges</h5>
+            <span>Challenge 1</span>
+            <span>Challenge Description</span>
+            <input type="button" value="Join">
+
+            <span>Challenge 2</span>
+            <span>Challenge Description</span>
+            <input type="button" value="Join">
+
+            <span>Challenge 3</span>
+            <span>Challenge Description</span>
+            <input type="button" value="Join">
+        </section>
+        <section class="leaderboard">
+            <input type="button" id="fetchUserDataButton" value="Fetch User Data">
+        </section>
+    </div>
+    <footer>
+        <input type="button" value="Create Challenge">
+        <input type="button" value="View My Challenges">
+        <input type="button" value="Log Out">
+    </footer>
+</body>
+</html>
